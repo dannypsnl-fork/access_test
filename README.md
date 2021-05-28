@@ -1,19 +1,15 @@
 # AccessTest
 
-To start your Phoenix server:
+### Question
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+Mission A
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Build a Rate Limit Server to serve the incoming requests
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+Assume that we have a rate limit server and it can serve 60 requests per minute for each IP. An error will be returned if requests over the threshold. Please implement the rate limit server that fulfills the features above.
 
-## Learn more
+Mission B
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Build a Voting Server to determine an issue about Wuhan coronavirus
+
+Assume that we have a voting server that is designed for determining whether Wuhan coronavirus is created in China. The user can vote to agree or disagree at any time. Please implement two APIs one is to vote and one is for retrieving the current votes count.
