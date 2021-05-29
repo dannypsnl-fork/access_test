@@ -14,9 +14,10 @@ defmodule AccessTest.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: AccessTest.PubSub},
       # Start the Endpoint (http/https)
-      AccessTestWeb.Endpoint
+      AccessTestWeb.Endpoint,
       # Start a worker by calling: AccessTest.Worker.start_link(arg)
       # {AccessTest.Worker, arg}
+      {AccessTest.CoronaVote, name: AccessTest.CoronaVote}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
