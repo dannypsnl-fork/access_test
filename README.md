@@ -18,4 +18,4 @@ Assume that we have a voting server that is designed for determining whether Wuh
 
 #### Solution
 
-Open `lib/access_test/corona_vote.ex`, record: 20 minutes
+Open [`lib/access_test/corona_vote.ex`](https://github.com/dannypsnl/access_test/blob/develop/lib/access_test/corona_vote.ex), record: 20 minutes
